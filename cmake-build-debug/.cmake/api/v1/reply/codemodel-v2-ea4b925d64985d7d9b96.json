@@ -1,0 +1,208 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "helpers",
+					"jsonFile" : "directory-helpers-Debug-cf2b6d11636b0ccec1f8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "helpers",
+					"targetIndexes" : 
+					[
+						4,
+						5
+					]
+				},
+				{
+					"build" : "models",
+					"jsonFile" : "directory-models-Debug-85536f1cc26d7ce72aeb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "models",
+					"targetIndexes" : 
+					[
+						6,
+						7
+					]
+				},
+				{
+					"build" : "views",
+					"jsonFile" : "directory-views-Debug-e7820fd00bedeb5d1c7a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "views",
+					"targetIndexes" : 
+					[
+						3,
+						8,
+						9
+					]
+				},
+				{
+					"build" : "controllers",
+					"jsonFile" : "directory-controllers-Debug-a68de31462664dd2eac5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "controllers",
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					],
+					"name" : "appname",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cmake::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cmake-Debug-dea6b28e45e1ef2aaae6.json",
+					"name" : "cmake",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "controller::@a08969b91e4b60658af7",
+					"jsonFile" : "target-controller-Debug-99ee7ad1ba39aa523d12.json",
+					"name" : "controller",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "controller_autogen::@a08969b91e4b60658af7",
+					"jsonFile" : "target-controller_autogen-Debug-2c8cb1fffc072c13d798.json",
+					"name" : "controller_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "genview::@ccd67909ff75f62082a5",
+					"jsonFile" : "target-genview-Debug-afd48adbce0bfc1f8b89.json",
+					"name" : "genview",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "helper::@a7387cdb12bc308fde33",
+					"jsonFile" : "target-helper-Debug-30ce23ff2f1e7e41c74f.json",
+					"name" : "helper",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "helper_autogen::@a7387cdb12bc308fde33",
+					"jsonFile" : "target-helper_autogen-Debug-75b97ed5e3d0cb694ef2.json",
+					"name" : "helper_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "model::@e634d7a1dd90e0496988",
+					"jsonFile" : "target-model-Debug-62cdeb907702fba26163.json",
+					"name" : "model",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "model_autogen::@e634d7a1dd90e0496988",
+					"jsonFile" : "target-model_autogen-Debug-ed06090d446c2044780a.json",
+					"name" : "model_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "view::@ccd67909ff75f62082a5",
+					"jsonFile" : "target-view-Debug-dc7fb3a35cb55365c427.json",
+					"name" : "view",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "view_autogen::@ccd67909ff75f62082a5",
+					"jsonFile" : "target-view_autogen-Debug-f4d12ce9f15bff26ee2d.json",
+					"name" : "view_autogen",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/sirzes/Proyects/session_controller/cmake-build-debug",
+		"source" : "/home/sirzes/Proyects/session_controller"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
